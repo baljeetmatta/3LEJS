@@ -1,0 +1,16 @@
+<html>
+    <body>
+        Welcome  <%=yourname%>, to EJS Home Page
+        <ul>
+            <%
+            courses.forEach((item)=>{
+            %>
+            <li><%=item%></li>
+
+
+            <%});
+            %>
+
+        </ul>
+    </body>
+</html>
